@@ -193,9 +193,9 @@ public class HelloWorldAdventure {
         }
         mainTextArea.setText("Your dorm room is cluttered. You remember Byte playing with a USB drive. " +
                 "Solve the coding challenge to find it.\n\n" + challenge);
-        choice1.setText("Hello World");
+        choice1.setText("Hello world");
         choice2.setText("hello world");
-        choice3.setText("Hello world");
+        choice3.setText("Hello World");
         choice4.setText("HELLO WORLD");
     }
 
@@ -318,7 +318,7 @@ public class HelloWorldAdventure {
                     }
                     break;
                 case "dormChallenge":
-                    if(yourChoice.equals("c1")) {
+                    if(yourChoice.equals("c3")) {
                         player.addItem("USB Drive");
                         libraryChallenge();
                     } else {
